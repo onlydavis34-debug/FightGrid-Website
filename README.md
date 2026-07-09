@@ -1,30 +1,45 @@
 FightGrid Website
-Official website and privacy policy for the FightGrid Android app.
+A lightweight, public website hosting the official Privacy Policy for the FightGrid Android app. This repository exists to provide a stable, HTTPS‑secured policy URL required for Google Play compliance.
 
-Published Privacy Policy URL
+Live Privacy Policy
+URL:  
 https://onlydavis34-debug.github.io/FightGrid-Website/privacy.html
 
-This link is publicly accessible, HTTPS‑secured, and compliant with Google Play’s User Data and Privacy Policy requirements.
+This page is publicly accessible, requires no login, and meets all Google Play User Data and Privacy Policy requirements.
 
-About This Repository
-This repository hosts a minimal static website used to publish FightGrid’s Privacy Policy. The site is intentionally simple — a single privacy.html file — to ensure fast loading, easy review, and full compliance with Google Play Console requirements.
+Purpose
+Google Play requires developers to provide a publicly accessible Privacy Policy hosted on a secure domain. This repository delivers:
 
-Included Files
-privacy.html — The complete Privacy Policy for FightGrid
+A clean, single‑page HTML Privacy Policy
 
-Effective date: 2026‑07‑09
+A stable GitHub Pages URL for Play Console
+
+A transparent, review‑friendly structure
+
+A simple, fast, and reliable hosting solution
+
+This repo is dedicated solely to FightGrid’s legal documentation.
+
+Repository Structure
+File	Description
+privacy.html	Full Privacy Policy for FightGrid
+README.md	Documentation for this repository
+.gitignore	Excludes OS/editor files and artifacts
+LICENSE	MIT License for this repository
+
+
+Privacy Policy Metadata
+The following values are included inside privacy.html:
+
+Effective Date: July 9, 2026
 
 Developer: onlydavis34-debug
 
-Contact email: onlydavis34@gmail.com
+Contact Email: onlydavis34@gmail.com
 
-README.md — Repository documentation
+These values should be updated whenever the policy changes.
 
-.gitignore — Excludes OS/editor files and local artifacts
-
-LICENSE — MIT License for this repository
-
-Publishing Instructions
+Publishing Instructions (GitHub Pages)
 Confirm all values inside privacy.html are correct.
 
 Commit and push changes to the main branch.
@@ -48,12 +63,32 @@ Open the URL in an incognito browser to confirm public access.
 
 Paste the URL into Google Play Console → App Content → Privacy Policy.
 
-Notes for Google Play Reviewers
-Test credentials will be provided in Play Console reviewer notes if required.
+Google Play Reviewer Notes
+This repository supports the FightGrid Android app submission. Reviewers can:
 
-The same privacy policy URL is linked inside the FightGrid app (Settings → Privacy Policy).
+Access the Privacy Policy instantly via the GitHub Pages link
 
-The Google Play Data Safety form accurately reflects the data practices described in the policy.
+Verify developer identity and contact information
+
+Confirm that the policy matches the app’s Data Safety disclosures
+
+Review a simple, static HTML page without navigating a complex site
+
+The FightGrid app also links to this same URL inside Settings → Privacy Policy.
+
+Maintenance Guidelines
+To keep this repository compliant and functional:
+
+Update the effective date whenever the policy changes
+
+Ensure the contact email remains active
+
+Keep GitHub Pages enabled
+
+Re‑verify the URL after major repository changes
+
+Keep the repository public for reviewer access
 
 License
-This repository is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
+See the LICENSE file for details.
