@@ -1,36 +1,59 @@
-# FightGrid Website
+FightGrid Website
+Official website and privacy policy for the FightGrid Android app.
 
-**Official website and privacy policy for the FightGrid Android app.**
-
-## Published privacy policy URL
+Published Privacy Policy URL
 https://onlydavis34-debug.github.io/FightGrid-Website/privacy.html
 
-## About
-This repository hosts a minimal static site that serves FightGrid's Privacy Policy and related legal pages required for Google Play Console. The site is intentionally simple (single `privacy.html`) so it is easy to review and link from the Play Store.
+This link is publicly accessible, HTTPS‑secured, and compliant with Google Play’s User Data and Privacy Policy requirements.
 
-## Files
-- `privacy.html` — The full Privacy Policy (HTML). Confirm the following values are correct before publishing:
-  - Effective date: 2026-07-09
-  - Developer: onlydavis34-debug
-  - Contact email: onlydavis34@gmail.com
-- `README.md` — This file.
-- `.gitignore` — Ignore OS/editor files and local build artifacts.
-- `LICENSE` — Project license (MIT).
+About This Repository
+This repository hosts a minimal static website used to publish FightGrid’s Privacy Policy. The site is intentionally simple — a single privacy.html file — to ensure fast loading, easy review, and full compliance with Google Play Console requirements.
 
-## How to publish (quick)
-1. Commit `privacy.html` with the values above confirmed.
-2. Push to the `main` branch.
-3. In the repo, go to **Settings → Pages** → **Deploy from a branch**.
-4. Select **Branch: main** and **Folder: / (root)**, then save.
-5. Wait a minute and confirm the page is available at:
-   `https://onlydavis34-debug.github.io/FightGrid-Website/privacy.html`
-6. Open the URL in an incognito window to verify HTTPS and public access.
-7. Paste that URL into Google Play Console → App Content → Privacy Policy.
+Included Files
+privacy.html — The complete Privacy Policy for FightGrid
 
-## Notes for Play Console reviewers
-- Provide test credentials in Play Console reviewer notes if any flows require login.
-- Ensure the same privacy URL is linked inside the app (Settings → Privacy Policy).
-- Complete the Play Console Data Safety form to match the policy.
+Effective date: 2026‑07‑09
 
-## License
-This repository is licensed under the MIT License. See `LICENSE` for details.
+Developer: onlydavis34-debug
+
+Contact email: onlydavis34@gmail.com
+
+README.md — Repository documentation
+
+.gitignore — Excludes OS/editor files and local artifacts
+
+LICENSE — MIT License for this repository
+
+Publishing Instructions
+Confirm all values inside privacy.html are correct.
+
+Commit and push changes to the main branch.
+
+Open Settings → Pages in GitHub.
+
+Under Build and Deployment, select:
+
+Source: Deploy from a branch
+
+Branch: main
+
+Folder: / (root)
+
+Save and wait for GitHub Pages to publish.
+
+Verify the live URL:
+https://onlydavis34-debug.github.io/FightGrid-Website/privacy.html
+
+Open the URL in an incognito browser to confirm public access.
+
+Paste the URL into Google Play Console → App Content → Privacy Policy.
+
+Notes for Google Play Reviewers
+Test credentials will be provided in Play Console reviewer notes if required.
+
+The same privacy policy URL is linked inside the FightGrid app (Settings → Privacy Policy).
+
+The Google Play Data Safety form accurately reflects the data practices described in the policy.
+
+License
+This repository is licensed under the MIT License. See the LICENSE file for details.
