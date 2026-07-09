@@ -12,7 +12,7 @@ This repository hosts a minimal static site that serves FightGrid's Privacy Poli
 - `privacy.html` — The full Privacy Policy (HTML). Confirm the following values are correct before publishing:
   - Effective date: 2026-07-09
   - Developer: onlydavis34-debug
-  - Contact email: privacy@fightgrid.app
+  - Contact email: onlydavis34@gmail.com
 - `README.md` — This file.
 - `.gitignore` — Ignore OS/editor files and local build artifacts.
 - `LICENSE` — Project license (MIT).
