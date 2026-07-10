@@ -3,7 +3,8 @@ A lightweight, public website hosting the official Privacy Policy for the FightG
 
 Live Privacy Policy
 URL:  
-https://onlydavis34-debug.github.io/FightGrid-Website/privacy.html
+https://onlydavis34-debug.github.io/FightGrid-Website/Privacy.html
+
 
 This page is publicly accessible, requires no login, and meets all Google Play User Data and Privacy Policy requirements.
 
@@ -22,7 +23,7 @@ This repo is dedicated solely to FightGrid’s legal documentation.
 
 Repository Structure
 File	Description
-privacy.html	Full Privacy Policy for FightGrid
+Privacy.html	Full Privacy Policy for FightGrid
 README.md	Documentation for this repository
 .gitignore	Excludes OS/editor files and artifacts
 LICENSE	MIT License for this repository
@@ -57,7 +58,8 @@ Folder: / (root)
 Save and wait for GitHub Pages to publish.
 
 Verify the live URL:
-https://onlydavis34-debug.github.io/FightGrid-Website/privacy.html
+https://onlydavis34-debug.github.io/FightGrid-Website/Privacy.html
+
 
 Open the URL in an incognito browser to confirm public access.
 
